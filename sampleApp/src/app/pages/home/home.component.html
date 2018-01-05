@@ -1,0 +1,15 @@
+<nav>
+  <ul>
+    <li><a [routerLink]="" (click)="changeContent('init')">Home</a></li>
+    <li><a [routerLink]="" (click)="changeContent('videos')" >Videos</a></li>
+    <li><a [routerLink]="" (click)="changeContent('actors')">Actors</a></li>
+    <li><a [routerLink]="" (click)="changeContent('movies')">Movies</a></li>
+    <li><a [routerLink]="">menu 1</a></li>
+  </ul>
+</nav>
+<div class="container">
+  <personal-info></personal-info>
+  <div class="displayHome">
+    <router-outlet name="home-router"></router-outlet>
+  </div>
+</div>

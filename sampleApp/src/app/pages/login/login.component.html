@@ -1,0 +1,7 @@
+<div>
+<p><label>User:</label><input  [(ngModel)]="user"/></p>
+<p><label>Password:</label ><input type="password" [(ngModel)]="password"/></p>
+<p class="info-message" *ngIf="!valid">{{errorMessage}}<p>
+<button class="accept" (click)="login()">Login</button>
+<button class="cancel" (click)="ask()">Clean Cookies</button>
+</div>

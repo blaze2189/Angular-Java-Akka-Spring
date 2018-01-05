@@ -1,0 +1,11 @@
+figure{
+  display: inline-block;
+}
+img{
+  width: 90px;
+  height: 100px;
+  -webkit-transition-duration:0.3s;
+}
+img:hover{
+  box-shadow: 2px 3px 3px black;
+}
